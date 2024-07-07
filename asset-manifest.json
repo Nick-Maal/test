@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/test/static/css/main.e9deaa85.css",
+    "main.js": "/test/static/js/main.72a4bae3.js",
+    "static/media/rdr2.jpeg": "/test/static/media/rdr2.31306667740f151c21b0.jpeg",
+    "static/media/stardew_valley.jpeg": "/test/static/media/stardew_valley.136627d60369d9aeeae0.jpeg",
+    "static/media/celeste.jpeg": "/test/static/media/celeste.95848da00be76d7664f9.jpeg",
+    "static/media/imageTeam.png": "/test/static/media/imageTeam.9f517cd4d7d76d17fab7.png",
+    "index.html": "/test/index.html",
+    "main.e9deaa85.css.map": "/test/static/css/main.e9deaa85.css.map",
+    "main.72a4bae3.js.map": "/test/static/js/main.72a4bae3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9deaa85.css",
+    "static/js/main.72a4bae3.js"
+  ]
+}
