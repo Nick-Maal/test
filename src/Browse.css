@@ -1,0 +1,139 @@
+.browse-page {
+    display: flex;
+}
+  
+.filters {
+  width: 250px;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+  
+.filter-group {
+  margin-bottom: 20px;
+}
+  
+.filter-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+  
+.game-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  flex-grow: 1;
+}
+  
+.game-card {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+  height: 150PX;
+}
+  
+.game-card:hover {
+  transform: scale(1.05);
+}
+  
+.game-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+  
+.game-card h3 {
+  margin: 10px 0;
+}
+  
+.game-card p {
+  margin: 5px 0;
+}
+  
+.game-details {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 400px;
+  height: 100%;
+  background-color: #fff;
+  padding: 20px;
+  border-left: 1px solid #ddd;
+  overflow-y: auto;
+  margin-top: 108px;
+  margin-bottom: 80px;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+}
+  
+.close-details {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+  
+.comment {
+  margin-bottom: 10px;
+  width: 100%;
+}
+  
+.comment p {
+  margin: 5px 0;
+}
+  
+.comment-form {
+  margin-top: 20px;
+  margin-bottom: 300px;
+}
+  
+.comment-form input,
+.comment-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+  
+.comment-form .rating {
+  margin-bottom: 10px;
+}
+  
+.comment-form .star {
+  cursor: pointer;
+  font-size: 20px;
+  color: #ddd;
+}
+  
+.comment-form .star.filled {
+  color: #ffc107;
+}
+  
+.comment-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+  
+.comment-form button:hover {
+  background-color: #0056b3;
+}
+  
+.comment-filter {
+  margin-bottom: 10px;
+}
+  
+.scrollable-content {
+  max-height: 50vh;
+  overflow-y: auto;
+}
+  

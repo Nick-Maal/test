@@ -1,0 +1,143 @@
+.articles-page {
+  text-align: center;
+  padding: 20px; 
+}
+
+.article-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem; 
+}
+
+.article-card {
+  border: 2px solid #e6e6fa;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.article-card:hover {
+  transform: translateY(-5px); 
+}
+
+.article-card img {
+  max-width: 100%;
+  height: 200px; 
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.article-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100; 
+}
+
+.article-modal-content {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 5px;
+  max-width: 80%;
+  position: relative;
+  overflow-y: auto; 
+  max-height: 90vh;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.article-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.article-details {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.like-section {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.like-section button {
+  background-color: #e6e6fa;
+  color: #333;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.comments-section {
+  margin-top: 2rem;
+}
+
+.comments-section h3 {
+  margin-bottom: 1rem;
+}
+
+.comments-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.comments-section li {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  background-color: #e6e6fa;
+  border-radius: 5px;
+}
+
+.comments-section li b {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.comment-form {
+  margin-top: 2rem;
+}
+
+.comment-form input,
+.comment-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.comment-form textarea {
+  height: 80px;
+  resize: vertical;
+}
+
+.comment-form button {
+  background-color: #e6e6fa;
+  color: #333;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

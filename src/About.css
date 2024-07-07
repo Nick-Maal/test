@@ -1,0 +1,29 @@
+.about-page {
+    text-align: center;
+}
+  
+.about-content {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  flex-wrap: wrap; 
+  gap: 2rem;
+  padding: 2rem;
+  border: 2px solid #e6e6fa;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  width: 80%; 
+  margin: 1rem auto; 
+}
+  
+.team-image img {
+  max-width: 100%; 
+  height: auto;  
+  border-radius: 10px;
+}
+  
+.company-info {
+  flex: 1; 
+}
+  

@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+header, footer {
+  background-color: #f0f0f0; 
+  padding: 1rem;
+}
+
+.content-wrapper {
+  padding-top: 6rem; 
+  padding-bottom: 6rem; 
+}
+
+
